@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3AE65721BCBCB7200B2DB42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AE65711BCBCB7200B2DB42 /* AppDelegate.swift */; };
+		A3AE65741BCBCB7200B2DB42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AE65731BCBCB7200B2DB42 /* ViewController.swift */; };
+		A3AE65771BCBCB7200B2DB42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AE65751BCBCB7200B2DB42 /* Main.storyboard */; };
+		A3AE65791BCBCB7200B2DB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AE65781BCBCB7200B2DB42 /* Assets.xcassets */; };
+		A3AE657C1BCBCB7200B2DB42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AE657A1BCBCB7200B2DB42 /* LaunchScreen.storyboard */; };
+		A3AE65871BCBCB7200B2DB42 /* BizagiTetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AE65861BCBCB7200B2DB42 /* BizagiTetsTests.swift */; };
+		A3AE65921BCBCB7200B2DB42 /* BizagiTetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AE65911BCBCB7200B2DB42 /* BizagiTetsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3AE65831BCBCB7200B2DB42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3AE65661BCBCB7200B2DB42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3AE656D1BCBCB7200B2DB42;
+			remoteInfo = BizagiTets;
+		};
+		A3AE658E1BCBCB7200B2DB42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3AE65661BCBCB7200B2DB42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3AE656D1BCBCB7200B2DB42;
+			remoteInfo = BizagiTets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3AE656E1BCBCB7200B2DB42 /* BizagiTets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BizagiTets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3AE65711BCBCB7200B2DB42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3AE65731BCBCB7200B2DB42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3AE65761BCBCB7200B2DB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3AE65781BCBCB7200B2DB42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3AE657B1BCBCB7200B2DB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3AE657D1BCBCB7200B2DB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3AE65821BCBCB7200B2DB42 /* BizagiTetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BizagiTetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3AE65861BCBCB7200B2DB42 /* BizagiTetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BizagiTetsTests.swift; sourceTree = "<group>"; };
+		A3AE65881BCBCB7200B2DB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3AE658D1BCBCB7200B2DB42 /* BizagiTetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BizagiTetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3AE65911BCBCB7200B2DB42 /* BizagiTetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BizagiTetsUITests.swift; sourceTree = "<group>"; };
+		A3AE65931BCBCB7200B2DB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3AE656B1BCBCB7200B2DB42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AE657F1BCBCB7200B2DB42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AE658A1BCBCB7200B2DB42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3AE65651BCBCB7200B2DB42 = {
+			isa = PBXGroup;
+			children = (
+				A3AE65701BCBCB7200B2DB42 /* BizagiTets */,
+				A3AE65851BCBCB7200B2DB42 /* BizagiTetsTests */,
+				A3AE65901BCBCB7200B2DB42 /* BizagiTetsUITests */,
+				A3AE656F1BCBCB7200B2DB42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3AE656F1BCBCB7200B2DB42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3AE656E1BCBCB7200B2DB42 /* BizagiTets.app */,
+				A3AE65821BCBCB7200B2DB42 /* BizagiTetsTests.xctest */,
+				A3AE658D1BCBCB7200B2DB42 /* BizagiTetsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3AE65701BCBCB7200B2DB42 /* BizagiTets */ = {
+			isa = PBXGroup;
+			children = (
+				A3AE65711BCBCB7200B2DB42 /* AppDelegate.swift */,
+				A3AE65731BCBCB7200B2DB42 /* ViewController.swift */,
+				A3AE65751BCBCB7200B2DB42 /* Main.storyboard */,
+				A3AE65781BCBCB7200B2DB42 /* Assets.xcassets */,
+				A3AE657A1BCBCB7200B2DB42 /* LaunchScreen.storyboard */,
+				A3AE657D1BCBCB7200B2DB42 /* Info.plist */,
+			);
+			path = BizagiTets;
+			sourceTree = "<group>";
+		};
+		A3AE65851BCBCB7200B2DB42 /* BizagiTetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3AE65861BCBCB7200B2DB42 /* BizagiTetsTests.swift */,
+				A3AE65881BCBCB7200B2DB42 /* Info.plist */,
+			);
+			path = BizagiTetsTests;
+			sourceTree = "<group>";
+		};
+		A3AE65901BCBCB7200B2DB42 /* BizagiTetsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3AE65911BCBCB7200B2DB42 /* BizagiTetsUITests.swift */,
+				A3AE65931BCBCB7200B2DB42 /* Info.plist */,
+			);
+			path = BizagiTetsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3AE656D1BCBCB7200B2DB42 /* BizagiTets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3AE65961BCBCB7200B2DB42 /* Build configuration list for PBXNativeTarget "BizagiTets" */;
+			buildPhases = (
+				A3AE656A1BCBCB7200B2DB42 /* Sources */,
+				A3AE656B1BCBCB7200B2DB42 /* Frameworks */,
+				A3AE656C1BCBCB7200B2DB42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BizagiTets;
+			productName = BizagiTets;
+			productReference = A3AE656E1BCBCB7200B2DB42 /* BizagiTets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3AE65811BCBCB7200B2DB42 /* BizagiTetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3AE65991BCBCB7200B2DB42 /* Build configuration list for PBXNativeTarget "BizagiTetsTests" */;
+			buildPhases = (
+				A3AE657E1BCBCB7200B2DB42 /* Sources */,
+				A3AE657F1BCBCB7200B2DB42 /* Frameworks */,
+				A3AE65801BCBCB7200B2DB42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3AE65841BCBCB7200B2DB42 /* PBXTargetDependency */,
+			);
+			name = BizagiTetsTests;
+			productName = BizagiTetsTests;
+			productReference = A3AE65821BCBCB7200B2DB42 /* BizagiTetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3AE658C1BCBCB7200B2DB42 /* BizagiTetsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3AE659C1BCBCB7200B2DB42 /* Build configuration list for PBXNativeTarget "BizagiTetsUITests" */;
+			buildPhases = (
+				A3AE65891BCBCB7200B2DB42 /* Sources */,
+				A3AE658A1BCBCB7200B2DB42 /* Frameworks */,
+				A3AE658B1BCBCB7200B2DB42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3AE658F1BCBCB7200B2DB42 /* PBXTargetDependency */,
+			);
+			name = BizagiTetsUITests;
+			productName = BizagiTetsUITests;
+			productReference = A3AE658D1BCBCB7200B2DB42 /* BizagiTetsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3AE65661BCBCB7200B2DB42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Camilo Rodriguez";
+				TargetAttributes = {
+					A3AE656D1BCBCB7200B2DB42 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A3AE65811BCBCB7200B2DB42 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A3AE656D1BCBCB7200B2DB42;
+					};
+					A3AE658C1BCBCB7200B2DB42 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A3AE656D1BCBCB7200B2DB42;
+					};
+				};
+			};
+			buildConfigurationList = A3AE65691BCBCB7200B2DB42 /* Build configuration list for PBXProject "BizagiTets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3AE65651BCBCB7200B2DB42;
+			productRefGroup = A3AE656F1BCBCB7200B2DB42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3AE656D1BCBCB7200B2DB42 /* BizagiTets */,
+				A3AE65811BCBCB7200B2DB42 /* BizagiTetsTests */,
+				A3AE658C1BCBCB7200B2DB42 /* BizagiTetsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3AE656C1BCBCB7200B2DB42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AE657C1BCBCB7200B2DB42 /* LaunchScreen.storyboard in Resources */,
+				A3AE65791BCBCB7200B2DB42 /* Assets.xcassets in Resources */,
+				A3AE65771BCBCB7200B2DB42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AE65801BCBCB7200B2DB42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AE658B1BCBCB7200B2DB42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3AE656A1BCBCB7200B2DB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AE65741BCBCB7200B2DB42 /* ViewController.swift in Sources */,
+				A3AE65721BCBCB7200B2DB42 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AE657E1BCBCB7200B2DB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AE65871BCBCB7200B2DB42 /* BizagiTetsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AE65891BCBCB7200B2DB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AE65921BCBCB7200B2DB42 /* BizagiTetsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3AE65841BCBCB7200B2DB42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3AE656D1BCBCB7200B2DB42 /* BizagiTets */;
+			targetProxy = A3AE65831BCBCB7200B2DB42 /* PBXContainerItemProxy */;
+		};
+		A3AE658F1BCBCB7200B2DB42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3AE656D1BCBCB7200B2DB42 /* BizagiTets */;
+			targetProxy = A3AE658E1BCBCB7200B2DB42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3AE65751BCBCB7200B2DB42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3AE65761BCBCB7200B2DB42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3AE657A1BCBCB7200B2DB42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3AE657B1BCBCB7200B2DB42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3AE65941BCBCB7200B2DB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3AE65951BCBCB7200B2DB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3AE65971BCBCB7200B2DB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BizagiTets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilorodriguez.BizagiTets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3AE65981BCBCB7200B2DB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BizagiTets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilorodriguez.BizagiTets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3AE659A1BCBCB7200B2DB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BizagiTetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilorodriguez.BizagiTetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BizagiTets.app/BizagiTets";
+			};
+			name = Debug;
+		};
+		A3AE659B1BCBCB7200B2DB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BizagiTetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilorodriguez.BizagiTetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BizagiTets.app/BizagiTets";
+			};
+			name = Release;
+		};
+		A3AE659D1BCBCB7200B2DB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BizagiTetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilorodriguez.BizagiTetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BizagiTets;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A3AE659E1BCBCB7200B2DB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BizagiTetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilorodriguez.BizagiTetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BizagiTets;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3AE65691BCBCB7200B2DB42 /* Build configuration list for PBXProject "BizagiTets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AE65941BCBCB7200B2DB42 /* Debug */,
+				A3AE65951BCBCB7200B2DB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3AE65961BCBCB7200B2DB42 /* Build configuration list for PBXNativeTarget "BizagiTets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AE65971BCBCB7200B2DB42 /* Debug */,
+				A3AE65981BCBCB7200B2DB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3AE65991BCBCB7200B2DB42 /* Build configuration list for PBXNativeTarget "BizagiTetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AE659A1BCBCB7200B2DB42 /* Debug */,
+				A3AE659B1BCBCB7200B2DB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3AE659C1BCBCB7200B2DB42 /* Build configuration list for PBXNativeTarget "BizagiTetsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AE659D1BCBCB7200B2DB42 /* Debug */,
+				A3AE659E1BCBCB7200B2DB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3AE65661BCBCB7200B2DB42 /* Project object */;
+}
