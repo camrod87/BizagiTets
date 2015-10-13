@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		155754F51BCD3A6B009275B1 /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = 155754F11BCD3A6B009275B1 /* question.png */; settings = {ASSET_TAGS = (); }; };
+		155754F61BCD3A6B009275B1 /* rejected.png in Resources */ = {isa = PBXBuildFile; fileRef = 155754F21BCD3A6B009275B1 /* rejected.png */; settings = {ASSET_TAGS = (); }; };
+		155754F71BCD3A6B009275B1 /* accepted.png in Resources */ = {isa = PBXBuildFile; fileRef = 155754F31BCD3A6B009275B1 /* accepted.png */; settings = {ASSET_TAGS = (); }; };
+		155754F81BCD3A6B009275B1 /* bizagi_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 155754F41BCD3A6B009275B1 /* bizagi_image.png */; settings = {ASSET_TAGS = (); }; };
+		155754FE1BCD3FD3009275B1 /* REFERENCIA_IMAGENES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155754FD1BCD3FD3009275B1 /* REFERENCIA_IMAGENES.swift */; settings = {ASSET_TAGS = (); }; };
+		155755021BCD795B009275B1 /* ClassObtenerRespuestas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155755011BCD795B009275B1 /* ClassObtenerRespuestas.swift */; settings = {ASSET_TAGS = (); }; };
 		A3AE65721BCBCB7200B2DB42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AE65711BCBCB7200B2DB42 /* AppDelegate.swift */; };
 		A3AE65741BCBCB7200B2DB42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AE65731BCBCB7200B2DB42 /* ViewController.swift */; };
 		A3AE65771BCBCB7200B2DB42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AE65751BCBCB7200B2DB42 /* Main.storyboard */; };
@@ -14,6 +20,15 @@
 		A3AE657C1BCBCB7200B2DB42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AE657A1BCBCB7200B2DB42 /* LaunchScreen.storyboard */; };
 		A3AE65871BCBCB7200B2DB42 /* BizagiTetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AE65861BCBCB7200B2DB42 /* BizagiTetsTests.swift */; };
 		A3AE65921BCBCB7200B2DB42 /* BizagiTetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AE65911BCBCB7200B2DB42 /* BizagiTetsUITests.swift */; };
+		A3AE666D1BCBD24000B2DB42 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AE666C1BCBD24000B2DB42 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A3AE66771BCBDDC800B2DB42 /* ClassUsuarioBO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AE66761BCBDDC800B2DB42 /* ClassUsuarioBO.swift */; settings = {ASSET_TAGS = (); }; };
+		A3AE667A1BCBDFF900B2DB42 /* ClassServicioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AE66791BCBDFF900B2DB42 /* ClassServicioManager.swift */; settings = {ASSET_TAGS = (); }; };
+		A3AE667C1BCBE02400B2DB42 /* ClassConstantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AE667B1BCBE02400B2DB42 /* ClassConstantes.swift */; settings = {ASSET_TAGS = (); }; };
+		A3AE667E1BCBE12F00B2DB42 /* TareasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AE667D1BCBE12F00B2DB42 /* TareasViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A3AE66801BCBE16000B2DB42 /* ProtocoloServicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AE667F1BCBE16000B2DB42 /* ProtocoloServicioViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A3AE66821BCBE1A500B2DB42 /* ClassRespuestaSWBO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AE66811BCBE1A500B2DB42 /* ClassRespuestaSWBO.swift */; settings = {ASSET_TAGS = (); }; };
+		A3AE66841BCBE29500B2DB42 /* ClassUtilidades.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AE66831BCBE29500B2DB42 /* ClassUtilidades.swift */; settings = {ASSET_TAGS = (); }; };
+		A3AE66861BCBE88B00B2DB42 /* TareasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AE66851BCBE88B00B2DB42 /* TareasTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		155754F11BCD3A6B009275B1 /* question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = question.png; path = ../../question.png; sourceTree = "<group>"; };
+		155754F21BCD3A6B009275B1 /* rejected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rejected.png; path = ../../rejected.png; sourceTree = "<group>"; };
+		155754F31BCD3A6B009275B1 /* accepted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = accepted.png; path = ../../accepted.png; sourceTree = "<group>"; };
+		155754F41BCD3A6B009275B1 /* bizagi_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bizagi_image.png; path = ../../bizagi_image.png; sourceTree = "<group>"; };
+		155754FD1BCD3FD3009275B1 /* REFERENCIA_IMAGENES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = REFERENCIA_IMAGENES.swift; sourceTree = "<group>"; };
+		155755011BCD795B009275B1 /* ClassObtenerRespuestas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassObtenerRespuestas.swift; sourceTree = "<group>"; };
 		A3AE656E1BCBCB7200B2DB42 /* BizagiTets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BizagiTets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3AE65711BCBCB7200B2DB42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3AE65731BCBCB7200B2DB42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,15 @@
 		A3AE658D1BCBCB7200B2DB42 /* BizagiTetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BizagiTetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3AE65911BCBCB7200B2DB42 /* BizagiTetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BizagiTetsUITests.swift; sourceTree = "<group>"; };
 		A3AE65931BCBCB7200B2DB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3AE666C1BCBD24000B2DB42 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A3AE66761BCBDDC800B2DB42 /* ClassUsuarioBO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassUsuarioBO.swift; sourceTree = "<group>"; };
+		A3AE66791BCBDFF900B2DB42 /* ClassServicioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassServicioManager.swift; sourceTree = "<group>"; };
+		A3AE667B1BCBE02400B2DB42 /* ClassConstantes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassConstantes.swift; sourceTree = "<group>"; };
+		A3AE667D1BCBE12F00B2DB42 /* TareasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TareasViewController.swift; sourceTree = "<group>"; };
+		A3AE667F1BCBE16000B2DB42 /* ProtocoloServicioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocoloServicioViewController.swift; sourceTree = "<group>"; };
+		A3AE66811BCBE1A500B2DB42 /* ClassRespuestaSWBO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassRespuestaSWBO.swift; sourceTree = "<group>"; };
+		A3AE66831BCBE29500B2DB42 /* ClassUtilidades.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassUtilidades.swift; sourceTree = "<group>"; };
+		A3AE66851BCBE88B00B2DB42 /* TareasTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TareasTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +107,7 @@
 		A3AE65651BCBCB7200B2DB42 = {
 			isa = PBXGroup;
 			children = (
+				A3AE66031BCBCF5600B2DB42 /* Images */,
 				A3AE65701BCBCB7200B2DB42 /* BizagiTets */,
 				A3AE65851BCBCB7200B2DB42 /* BizagiTetsTests */,
 				A3AE65901BCBCB7200B2DB42 /* BizagiTetsUITests */,
@@ -97,12 +128,17 @@
 		A3AE65701BCBCB7200B2DB42 /* BizagiTets */ = {
 			isa = PBXGroup;
 			children = (
+				A3AE66781BCBDF9100B2DB42 /* ServicioWeb */,
+				A3AE66751BCBDDA100B2DB42 /* BO */,
+				A3AE66741BCBDD8F00B2DB42 /* Business */,
+				A3AE666B1BCBD20E00B2DB42 /* GUI */,
 				A3AE65711BCBCB7200B2DB42 /* AppDelegate.swift */,
 				A3AE65731BCBCB7200B2DB42 /* ViewController.swift */,
 				A3AE65751BCBCB7200B2DB42 /* Main.storyboard */,
 				A3AE65781BCBCB7200B2DB42 /* Assets.xcassets */,
 				A3AE657A1BCBCB7200B2DB42 /* LaunchScreen.storyboard */,
 				A3AE657D1BCBCB7200B2DB42 /* Info.plist */,
+				155754FD1BCD3FD3009275B1 /* REFERENCIA_IMAGENES.swift */,
 			);
 			path = BizagiTets;
 			sourceTree = "<group>";
@@ -123,6 +159,56 @@
 				A3AE65931BCBCB7200B2DB42 /* Info.plist */,
 			);
 			path = BizagiTetsUITests;
+			sourceTree = "<group>";
+		};
+		A3AE66031BCBCF5600B2DB42 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				155754F11BCD3A6B009275B1 /* question.png */,
+				155754F21BCD3A6B009275B1 /* rejected.png */,
+				155754F31BCD3A6B009275B1 /* accepted.png */,
+				155754F41BCD3A6B009275B1 /* bizagi_image.png */,
+			);
+			name = Images;
+			path = ../SeguimientoIOSV1/Images;
+			sourceTree = "<group>";
+		};
+		A3AE666B1BCBD20E00B2DB42 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				A3AE666C1BCBD24000B2DB42 /* LoginViewController.swift */,
+				A3AE667D1BCBE12F00B2DB42 /* TareasViewController.swift */,
+				A3AE66831BCBE29500B2DB42 /* ClassUtilidades.swift */,
+				A3AE66851BCBE88B00B2DB42 /* TareasTableViewCell.swift */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		A3AE66741BCBDD8F00B2DB42 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				155755011BCD795B009275B1 /* ClassObtenerRespuestas.swift */,
+			);
+			name = Business;
+			sourceTree = "<group>";
+		};
+		A3AE66751BCBDDA100B2DB42 /* BO */ = {
+			isa = PBXGroup;
+			children = (
+				A3AE66761BCBDDC800B2DB42 /* ClassUsuarioBO.swift */,
+			);
+			name = BO;
+			sourceTree = "<group>";
+		};
+		A3AE66781BCBDF9100B2DB42 /* ServicioWeb */ = {
+			isa = PBXGroup;
+			children = (
+				A3AE66791BCBDFF900B2DB42 /* ClassServicioManager.swift */,
+				A3AE667B1BCBE02400B2DB42 /* ClassConstantes.swift */,
+				A3AE667F1BCBE16000B2DB42 /* ProtocoloServicioViewController.swift */,
+				A3AE66811BCBE1A500B2DB42 /* ClassRespuestaSWBO.swift */,
+			);
+			name = ServicioWeb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +314,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				155754F71BCD3A6B009275B1 /* accepted.png in Resources */,
+				155754F61BCD3A6B009275B1 /* rejected.png in Resources */,
 				A3AE657C1BCBCB7200B2DB42 /* LaunchScreen.storyboard in Resources */,
+				155754F81BCD3A6B009275B1 /* bizagi_image.png in Resources */,
 				A3AE65791BCBCB7200B2DB42 /* Assets.xcassets in Resources */,
 				A3AE65771BCBCB7200B2DB42 /* Main.storyboard in Resources */,
+				155754F51BCD3A6B009275B1 /* question.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +345,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3AE66841BCBE29500B2DB42 /* ClassUtilidades.swift in Sources */,
+				A3AE666D1BCBD24000B2DB42 /* LoginViewController.swift in Sources */,
 				A3AE65741BCBCB7200B2DB42 /* ViewController.swift in Sources */,
+				A3AE667C1BCBE02400B2DB42 /* ClassConstantes.swift in Sources */,
+				155754FE1BCD3FD3009275B1 /* REFERENCIA_IMAGENES.swift in Sources */,
+				155755021BCD795B009275B1 /* ClassObtenerRespuestas.swift in Sources */,
+				A3AE667A1BCBDFF900B2DB42 /* ClassServicioManager.swift in Sources */,
+				A3AE66821BCBE1A500B2DB42 /* ClassRespuestaSWBO.swift in Sources */,
+				A3AE66801BCBE16000B2DB42 /* ProtocoloServicioViewController.swift in Sources */,
+				A3AE66771BCBDDC800B2DB42 /* ClassUsuarioBO.swift in Sources */,
 				A3AE65721BCBCB7200B2DB42 /* AppDelegate.swift in Sources */,
+				A3AE66861BCBE88B00B2DB42 /* TareasTableViewCell.swift in Sources */,
+				A3AE667E1BCBE12F00B2DB42 /* TareasViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +584,7 @@
 				A3AE65981BCBCB7200B2DB42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3AE65991BCBCB7200B2DB42 /* Build configuration list for PBXNativeTarget "BizagiTetsTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +593,7 @@
 				A3AE659B1BCBCB7200B2DB42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3AE659C1BCBCB7200B2DB42 /* Build configuration list for PBXNativeTarget "BizagiTetsUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +602,7 @@
 				A3AE659E1BCBCB7200B2DB42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
