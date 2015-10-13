@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BizagiTets/ClassServicioManager.swift"
-            timestampString = "466446019.257639"
+            timestampString = "466462374.820632"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "get(_:controller:protocolo:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BizagiTets/ClassServicioManager.swift"
-            timestampString = "466446019.257639"
+            timestampString = "466462374.820632"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "get(_:controller:protocolo:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -58,12 +58,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BizagiTets/ClassServicioManager.swift"
-            timestampString = "466436691.730374"
+            timestampString = "466462374.820632"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "consultarUrl(_:opcion:controller:protocoloRecibido:)"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "consultarUrl(_:controller:protocoloRecibido:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -122,13 +122,45 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BizagiTets/ClassServicioManager.swift"
-            timestampString = "466452354.419321"
+            timestampString = "466462374.820632"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
             landmarkName = "get(_:controller:protocolo:)"
             landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BizagiTets.ClassServicioManager.((get in _BA37072C8929F8B52F3CCB2AD8A3F5CE) (BizagiTets.ClassServicioManager) -&gt; (Swift.String, controller : ObjectiveC.UIViewController, protocolo : BizagiTets.ProtocoloServicioViewController) -&gt; ()).(closure #1)"
+                  moduleName = "BizagiTets"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oficina/Downloads/coding%20test/BizagiTets/BizagiTets/ClassServicioManager.swift"
+                  timestampString = "466462377.594606"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "664">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[2] = Dead, Arg[3] = Value Promoted from InOut&gt; of BizagiTets.ClassServicioManager.((get in _BA37072C8929F8B52F3CCB2AD8A3F5CE) (BizagiTets.ClassServicioManager) -&gt; (Swift.String, controller : ObjectiveC.UIViewController, protocolo : BizagiTets.ProtocoloServicioViewController) -&gt; ()).(closure #1).(closure #2)"
+                  moduleName = "BizagiTets"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oficina/Downloads/coding%20test/BizagiTets/BizagiTets/ClassServicioManager.swift"
+                  timestampString = "466462377.595019"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

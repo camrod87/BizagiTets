@@ -1,10 +1,3 @@
-//
-//  TareasViewController.swift
-//  BizagiTets
-//
-//  Created by Camilo Rodriguez on 10/12/15.
-//  Copyright © 2015 Camilo Rodriguez. All rights reserved.
-//
 
 import UIKit
 
@@ -21,7 +14,7 @@ class TareasViewController: UIViewController, UITableViewDelegate, UITableViewDa
         //simulaDescargaTareas()
         let servicioManager = ClassServicioManager()
         let delegado = self as ProtocoloServicioViewController
-        servicioManager.consultarUrl(nil, opcion: ClassConstantes.CONSULTAR_TAREAS, controller: self, protocoloRecibido: delegado)
+        servicioManager.consultarUrl(ClassConstantes.CONSULTAR_TAREAS, controller: self, protocoloRecibido: delegado)
     }
     
     func simulaDescargaTareas(){
@@ -42,12 +35,10 @@ class TareasViewController: UIViewController, UITableViewDelegate, UITableViewDa
         // Dispose of any resources that can be recreated.
     }
     
-    /*METODO SOBREESCRITO para que el table view conozca la cantidad de elementos a dibujar*/
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return listadoTareas.count // Cambiar por la cantidad de elementos a mostrar
+        return listadoTareas.count
     }
     
-    /*METODO SOBREESCRITO para que el table view construya cada row en base a la informacion*/
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let celda = tableView.dequeueReusableCellWithIdentifier("TareasTableViewCell", forIndexPath: indexPath) as! TareasTableViewCell
         celda.uiLabelRequester.text = "\(listadoTareas[indexPath.row].employee!)"
@@ -57,9 +48,7 @@ class TareasViewController: UIViewController, UITableViewDelegate, UITableViewDa
         return celda
     }
     
-    /*METODO SOBREESCRITO para escuchar un click de un elemento en el tableview*/
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        print("TAREA: \(indexPath.row)")
         let usuario = listadoTareas[indexPath.row]
         let mensaje = "Que deseas hacer con esta actividad? \n Actividad: \(usuario.activity!) \n Nombre: \(usuario.employee!) \n Desde - Hasta: \(usuario.beginDate) - \(usuario.endDate)"
         presentarDialogoConfirmacion("CONFIRMACIÓN", mensaje: mensaje, row: indexPath.row)

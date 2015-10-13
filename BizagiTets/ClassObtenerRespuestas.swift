@@ -1,10 +1,4 @@
-//
-//  ClassObtenerRespuestas.swift
-//  BizagiTets
-//
-//  Created by OFICINA on 13/10/15.
-//  Copyright © 2015 Camilo Rodriguez. All rights reserved.
-//
+
 
 import Foundation
 

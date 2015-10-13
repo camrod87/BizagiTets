@@ -1,10 +1,4 @@
-//
-//  BizagiTetsTests.swift
-//  BizagiTetsTests
-//
-//  Created by Camilo Rodriguez on 10/12/15.
-//  Copyright © 2015 Camilo Rodriguez. All rights reserved.
-//
+
 
 import XCTest
 @testable import BizagiTets
